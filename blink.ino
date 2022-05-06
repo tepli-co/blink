@@ -22,3 +22,9 @@ void loop() {
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
   delay(4000);               // wait for a second
 }
+
+static string GetApplicationString()
+{
+  string info = "Sample application info string"
+  return info;
+}
